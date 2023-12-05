@@ -33,6 +33,7 @@ function definirTurno() : void {
       if(parseInt(nuevoTurno.value) >= 0) {
         turno = parseInt(nuevoTurno.value.padStart(2, "0"));
         pintarTurno()
+        nuevoTurno.value = "";
         };
       };
     }
