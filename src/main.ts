@@ -14,8 +14,10 @@ function reset() : void {
 };
 
 function restar() : void {
-  turno--;
-  pintarTurno()
+  if (turno >= 0) {
+    turno--;
+    pintarTurno()
+  };
 };
 
 function sumar() : void {
