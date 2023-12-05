@@ -14,7 +14,7 @@ function reset() : void {
 };
 
 function restar() : void {
-  if (turno >= 0) {
+  if (turno > 0) {
     turno--;
     pintarTurno()
   };
